@@ -1,0 +1,87 @@
+html{
+width: 100%;
+}
+head{
+
+}
+body{
+background-image: url("img/sg-header-carbon-black.jpg");
+    width: 85%;
+    margin: auto;
+}
+.section1{
+
+    border: solid 3px lightsteelblue;
+    border: 2px solid #3f4246;
+    background-color: black;
+    border-radius: 12px;
+
+}
+section img{
+   width: 10%;
+}
+h1 {
+    color: whitesmoke;
+    margin: auto;
+    text-align: center;
+
+
+}
+.section0{
+    width: 100%;
+    border: solid white 2px;
+    background-color: dimgray;
+
+
+}
+.section0 button{
+    text-align: center;
+    padding-right: 5%;
+    font-size: 20pt;
+    background-color: #d9d39e;
+    margin-right: 3%;
+}
+section a{
+
+    font-family: "Bookman Old Style";
+    font-size: 20pt;
+    width: 100%;
+    margin-left: 250px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: table;
+
+
+}
+.section2{
+    width: 80%;
+    padding-bottom: 30%;
+    background-color: orange;
+}
+table{
+    width:100%;
+
+}
+table tr{
+    width: 100%;
+    margin-right: 10px;
+}
+table tr td{
+
+    width: 20%;
+    padding-bottom: 20%;
+    margin-right: 10px;
+    border: solid cornsilk 4px;
+    background-color: aquamarine;
+
+
+}
+footer{
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+    font-family: "Bodoni MT";
+    font-size: 15pt;
+    color: white;
+}

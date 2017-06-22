@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CREATE SMARTLY</title>
+</head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="Dinher.css" rel="stylesheet">
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex-1].style.display = "block";
+    }
+</script>
+<body>
+
+    <section class="section1"><h1>Enjoy what you create</h1>
+    </section>
+
+    <section class="section0">
+    </br>
+        <center>
+    <button>Designs<a href="Designs.html"></a></button>
+        <button>About<a href="About.html"></a></button>
+        <button>Contact<a href="Contact.html"></a></button>
+        </center>
+    </section>
+
+    </br>
+
+    <center>
+        <div class="w3-content w3-display-container">
+
+            <div class="w3-display-container mySlides">
+                <img src="img/Logo.png" style="width:80%">
+                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+
+                </div>
+            </div>
+
+            <div class="w3-display-container mySlides">
+                <img src="img/Home%20page.jpeg" style="width:80%">
+                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+
+                </div>
+            </div>
+
+
+
+            <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+        </div>
+    </center>
+
+    </br>
+<table>
+<tr>
+    <td><section class="box1">box1</section></td>
+
+    <td><section class="box2">box2</section></td>
+
+    <td><section class="box3">box3</section></td>
+    <td> <section class="box4">box4</section></td>
+
+</tr>
+</table>
+</body>
+
+<footer>
+    <center><p>Copyrights<span>&copy;</span> 2017 All Rights Reserved for Create Smartly </p></center>
+</footer>
+
+
+
+</html>
